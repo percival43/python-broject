@@ -1,4 +1,4 @@
 dash==2.7.0
 plotly==5.11.0
 pandas==1.5.2
-openpyxl=3.0.10
+openpyxl==3.0.10
