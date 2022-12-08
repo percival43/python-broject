@@ -129,17 +129,6 @@ data7 = [go.Scatter(x=df3_average_kg.columns,
 layout7= go.Layout(title="პროდუქტის საშუალო თვიური მოხმარება(კგ)")
 
 
-data8 = [
-    go.Treemap(
-        labels=df_q_treemap.index,
-        values=df_q_treemap["SUM"],
-        parents=["", "", "", "", ""],
-    )
-]
-layout8 = [go.Treemap(labels=df_gel.index,
-                      values=df_gel["SUM"],
-                      parents=["", "", "", "", ""])]
-
 app.layout = html.Div(
     children=[
         html.Img(
