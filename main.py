@@ -6,6 +6,7 @@ from dash import dcc
 
 pd.options.mode.chained_assignment = None
 app = dash.Dash()
+server = app.server
 df_use = pd.read_excel("Client Data (1).xlsx", sheet_name="Clinet Base")
 
 # this block of code imports data from source, sets first row as Column Names and Drops the first rows
